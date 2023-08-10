@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "rootDir": "./", // Update rootDir to match the root directory
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "typeRoots": ["./node_modules/@types"],
+    "types": ["node"]
+  },
+  "include": [
+    "app.ts", // Include the entry file here
+    "controller/**/*.ts",
+    "routes/**/*.ts",
+    "models/**/*.ts",
+    "util/**/*.ts" 
+  ]
+}
